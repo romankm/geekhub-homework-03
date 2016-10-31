@@ -6,6 +6,9 @@ namespace Band\StringInstruments;
  */
 class Banjo extends StringInstrument
 {
+    /**
+     * @return int
+     */
     function getNumberOfStrings()
     {
         return 4;

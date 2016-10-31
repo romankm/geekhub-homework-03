@@ -6,6 +6,9 @@ namespace Band\StringInstruments;
  */
 class Guitar extends StringInstrument
 {
+    /**
+     * @return int
+     */
     function getNumberOfStrings()
     {
         return 6;
